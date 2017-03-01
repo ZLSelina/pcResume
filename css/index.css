@@ -11,7 +11,6 @@ header,head,section,figure,figcaption,div,ol,ul,h1,h2,h3,h4,h5,h6{
 h1,h2,h3,h4,h5,h6,p{
     line-height: 35px;
 }
-
 ul{
     padding: 0;
 }
@@ -137,30 +136,22 @@ p{
 
 .slider .basic-information ul li i{
     position: absolute;
-    top: 8px;
+    top: 0;
     right: 0;
 
     display: inline-block;
     width: 180px;
     height: 15px;
-
-    background-color: #CCC;
 }
 
-.slider .basic-information ul li i::after{
-    content:'';
-    overflow: hidden;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 10%;
-    height: 15px;
-
-    background-color: #68b020;
+.slider .basic-information .outer-therm{
+    margin: 8px 0 0 0;
 }
 
+.slider .basic-information .inner-therm span{
+    font-size: 12px;
+    line-height: 15px;
+}
 
 
 
