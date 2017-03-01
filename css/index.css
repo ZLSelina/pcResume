@@ -144,10 +144,22 @@ p{
     width: 180px;
     height: 15px;
 
-    background-color: #68b020;
+    background-color: #CCC;
 }
 
+.slider .basic-information ul li i::after{
+    content:'';
+    overflow: hidden;
 
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 10%;
+    height: 15px;
+
+    background-color: #68b020;
+}
 
 
 
